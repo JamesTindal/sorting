@@ -6,7 +6,8 @@ var timer = new Stopwatch();
 
 timer.Start();
 // ICantBelieveItCan.Sort(array);
-Bubble.Sort(array);
+// Bubble.Sort(array);
+Selection.Sort(array);
 timer.Stop();
 
 Console.WriteLine($"Timer: {timer.Elapsed}");
